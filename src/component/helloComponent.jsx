@@ -5,7 +5,7 @@ class Hello extends Component {
       
     return (
       <div>
-        <h1>Hello World this is Hello Component.</h1>
+        <h3>Hello World this is Hello Component.</h3>
       </div>
     );
   }
