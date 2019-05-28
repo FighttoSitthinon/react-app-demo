@@ -4,6 +4,7 @@ import "./App.css";
 import Hello from "../src/component/helloComponent";
 import Counters from './component/countersComponent';
 import NavBar from './component/navbar';
+import Users from './component/users';
 
 function App() {
   const [isBool, setBool] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <span className="m-2"><b>{isBool ? "TRUE" : "FALSE"}</b></span>
       <button onClick={changeState} className="btn btn-info btn-sm m-2">Set bool</button>
       <Counters />
+      <Users/>
     </div>
   );
 }
