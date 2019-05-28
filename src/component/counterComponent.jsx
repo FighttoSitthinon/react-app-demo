@@ -40,7 +40,7 @@ class Counter extends Component {
         <span style={this.styles} className={this.getClasses()}>
           {this.formatCount()}
         </span>
-        
+
         <button
           style={{ fontSize: 15 }}
           className="btn btn-secondary btn-sm m-2"
@@ -76,7 +76,7 @@ class Counter extends Component {
 
   formatCount() {
     let { count } = this.state;
-    return count === 0 ? "Zero" : count;
+    return count === 0 ? 0 : count;
   }
 
   //   increment() { //this function need to use constructor
