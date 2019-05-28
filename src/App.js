@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Hello from "../src/component/helloComponent";
-import Counter from "../src/component/countComponent";
+import Counter from "./component/counterComponent";
 
 function App() {
   const [isBool, setBool] = useState(false);
